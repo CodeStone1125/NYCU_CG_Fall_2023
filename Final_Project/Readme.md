@@ -22,6 +22,7 @@ We use drawEnv to render all objects and scenes, and then separately implement t
 | ![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/f4c47300-c744-4902-b6a9-f6f7d1741d63) |
 |:-----------------------------------:|
 | **Render Overview** |
+
 As for the rendering details, taking the `gentry` crane as an example, the `cabin`, the `body`, the `cabin`, and the `wheel` were designed respectively. These four parts are made using pre-drawn unit cubes and unit cylinders, and then their positions and sizes are altered through push scaling and translation matrices. The following image is an actual shot of the `gentry` crane."
 
 | ![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/3f5c6740-1315-4856-9de3-b1464036e16e) |
@@ -36,7 +37,7 @@ To achieve collaboration in container handling, we implemented the operation of 
 | **Camera Position** |
 
 ### Lighting and Textures
-We rendered textures for all the above-mentioned objects, using fragment shaders and vertex shaders to determine the texture settings. Then, the texture vertices are set to determine the color to be rendered at each point. We also randomly assigned container brands from a pool of 12 different brands, so each time the map is generated, the configuration will be different. For lighting, we implemented Ambient, Diffuse, Specular, Position, and Spot Direction. The lights can be toggled on and off with L/l (lower case) to simulate day and night.
+We rendered textures for all the above-mentioned objects, using fragment shaders and vertex shaders to determine the texture settings. Then, the texture vertices are set to determine the color to be rendered at each point. We also randomly assigned container brands from a pool of 12 different brands, so each time the map is generated, the configuration will be different. For lighting, we implemented `Ambient`, `Diffuse`, `Specular`, `Position`, and `Spot Direction`. The `lights` can be toggled on and off with L/l (lower case) to simulate day and night.
 
 | ![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/5caca5e0-2f7d-49b9-b6a6-7554127f220b) | ![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/a2b4585b-681f-427c-9502-b25f851d9a7c) |
 |:-----------------------------------:|:-----------------------------------:|
