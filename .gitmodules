@@ -1,0 +1,6 @@
+[submodule "Shader"]
+	path = Shader
+	url = https://github.com/CodeStone1125/Shader
+[submodule "renderAirplane"]
+	path = renderAirplane
+	url = https://github.com/CodeStone1125/renderAirplane.git
