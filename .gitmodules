@@ -4,3 +4,6 @@
 [submodule "renderAirplane"]
 	path = renderAirplane
 	url = https://github.com/CodeStone1125/renderAirplane.git
+[submodule "advanceTexture"]
+	path = advanceTexture
+	url = https://github.com/CodeStone1125/advanceTexture.git
