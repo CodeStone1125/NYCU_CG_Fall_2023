@@ -28,6 +28,20 @@ As for the rendering details, taking the `gentry` crane as an example, the `cabi
 |:-----------------------------------:|
 | **Gentry** |
 
+### Camera Position
+To achieve collaboration in container handling, we implemented the operation of the `gentry`, `truck`, and `third-person` perspectives. These can be switched using the 0/1/2 keys, while the mouse can be used to control the `camera angle`. Below are actual shots of the three perspectives.
+
+| ![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/0403767d-e95b-4c6b-a74e-05fc9d4bbac2) |
+|:-----------------------------------:|
+| **Camera Position** |
+
+### Lighting and Textures
+We rendered textures for all the above-mentioned objects, using fragment shaders and vertex shaders to determine the texture settings. Then, the texture vertices are set to determine the color to be rendered at each point. We also randomly assigned container brands from a pool of 12 different brands, so each time the map is generated, the configuration will be different. For lighting, we implemented Ambient, Diffuse, Specular, Position, and Spot Direction. The lights can be toggled on and off with L/l (lower case) to simulate day and night.
+
+| ![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/5caca5e0-2f7d-49b9-b6a6-7554127f220b) | ![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/a2b4585b-681f-427c-9502-b25f851d9a7c) |
+|:-----------------------------------:|:-----------------------------------:|
+| **Night(up) vs Day(down)** | **Container** |
+
 ### Implement features table
 | Render | | |
 | --- | --- | --- |
