@@ -16,6 +16,12 @@ To use the `Visual Studio 2019` environment for rendering objects and scenes, te
 `OpenGL`, and to simulate the collaboration between objects to simulate the shipping of cargo in a port 
 from the perspective of a gentry.　
 
+### Object Rendering
+We use drawEnv to render all objects and scenes, and then separately implement the rendering of `gentry` cranes, `trucks`, `ports`, etc. The following figure is an architectural diagram.
+![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/f4c47300-c744-4902-b6a9-f6f7d1741d63)
+
+As for the rendering details, taking the `gentry` crane as an example, the `cabin`, the `body`, the `cabin`, and the `wheel` were designed respectively. These four parts are made using pre-drawn unit cubes and unit cylinders, and then their positions and sizes are altered through push scaling and translation matrices. The following image is an actual shot of the `gentry` crane."
+![image](https://github.com/CodeStone1125/NYCU_CG_Fall_2023/assets/72511296/3f5c6740-1315-4856-9de3-b1464036e16e)
 
 ### Implement features table
 | Render | | |
